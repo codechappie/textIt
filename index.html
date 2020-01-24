@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SMSApp</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <section class="sms__container">
+        <div class="card shadow__first">
+            <div class="info">
+                <h1>Hola! Esto es TextIt...</h1>
+                <video src="https://uploads-ssl.webflow.com/5bcb46130508ef456a7b2930/5d060ea7c9e4d60c42d0d010_drawkit-grape-pack-illustration-5-transcode.mp4" loop autoplay muted></video>
+                <p>Una aplicación web para enviar SMS,
+                    que hace uso de una API. ¡Vamos, pruebala!</p>
+            </div>
+            <div class="sms__form">
+                <div class="phoneNumber">
+                    <input type="number" id="numberPhone" name="numberPhone" placeholder="51986770094">
+                </div>
+                <div class="messageText">
+                    <textarea name="textMessage" id="textMessage" placeholder="Ingresar mensaje..."></textarea>
+                </div>
+                <button id="sendSMS">Enviar SMS</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

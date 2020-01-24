@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.sms__container{
+    background-color: rgb(2, 133, 255);
+    height: 100vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 14px;
+    width: 400px;
+    height: 500px;
+    display: grid;
+    border: 1px solid rgb(236, 236, 236);
+    text-align: center;
+}
+.shadow__first{
+    box-shadow: 3px 3px 6px rgba(161, 161, 161, 0.342);
+    transition: all .5s ease-in-out;
+}
+.card:hover{
+    box-shadow: 4px 4px 13px rgba(51, 51, 51, 0.295);
+    transition: all .5s ease-in-out;
+}
+.card img{
+    height: 40px;
+}
+.info video{
+    height: 200px;
+}
+.info h1{
+    color: rgb(105, 105, 105);
+}
+.phoneNumber input,
+.messageText textarea{
+    margin: 10px auto;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 4px;
+    resize: none;
+}
+.sms__form button{
+ width: 270px;
+ padding: 10px;
+ border: 1px solid rgb(62, 81, 255);
+ color: #fff;
+ font-weight: 600;
+ font-size: 14px;
+ background-color: rgb(4, 104, 255);
+}
+@media screen and (max-width: 450px){
+    .card{
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        border-radius: 14px;
+        width: 280px;
+        height: 500px;
+        display: grid;
+        border: 1px solid rgb(236, 236, 236);
+        text-align: center;
+    }   
+}
+@media screen and (max-height: 580px){
+    .sms__container{
+        background-color: rgb(2, 133, 255);
+        height: 100%;
+    }   
+    .card{
+        margin: 20px;
+    }
+}
+@media screen and (max-width: 350px){
+    .card{
+        background-color: rgb(255, 255, 255);
+        padding: 15px;
+        border-radius: 14px;
+        width: 260px;
+        height: 500px;
+        display: grid;
+        border: 1px solid rgb(236, 236, 236);
+        text-align: center;
+    }   
+    .phoneNumber input,
+.messageText textarea{
+    margin: 10px auto;
+    width: 230px;
+    padding: 10px;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 4px;
+    resize: none;
+}
+.sms__form button{
+ width: 250px;
+ padding: 10px;
+ border: 1px solid rgb(62, 81, 255);
+ color: #fff;
+ font-weight: 600;
+ font-size: 14px;
+ background-color: rgb(4, 104, 255);
+}
+
+}
